@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <i class="fas fa-clock fa-2x" id="clockIcon"></i> <!-- Clock icon -->
+        <h1>Stopwatch</h1>
+        <div class="display">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+        </div>
+        <div class="buttons">
+            <button id="startBtn"><i class="fas fa-play"></i> Start</button>
+            <button id="stopBtn"><i class="fas fa-pause"></i> Stop</button>
+            <button id="resetBtn"><i class="fas fa-stop"></i> Reset</button>
+            <button id="lapBtn"><i class="fas fa-flag"></i> Lap</button>
+        </div>
+        <div class="laps" id="lapsContainer"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
